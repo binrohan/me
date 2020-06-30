@@ -300,7 +300,6 @@ section::-webkit-scrollbar-thumb {
 }
 .info-block {
   width: 50%;
-  height: 100%;
   padding: 5px 5px 0;
   display: flex;
   justify-content: stretch;

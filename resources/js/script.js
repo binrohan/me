@@ -111,3 +111,24 @@ $('.count').each(function () {
 //   setVisible('.page-layout', true);
 //   setVisible('#loading', false);
 // });
+$(document).ready(function()
+{
+    $("#imgDino-rollingball").hover(
+        function()
+        {
+            $(this).attr("src", "resources/img/rollingball.gif");
+        }                        
+    );
+    $("#imgDino-resume").hover(
+      function()
+      {
+          $(this).attr("src", "resources/img/responsive-resume.gif");
+      }                        
+    ); 
+    $("#imgDino-datingapp").hover(
+      function()
+      {
+          $(this).attr("src", "resources/img/datingapp.gif");
+      }                        
+    );                  
+});

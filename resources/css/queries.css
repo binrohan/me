@@ -8,9 +8,6 @@
       .content:last-child {
         padding-bottom: 35px;
       }
-
-
-
       .code-block {
         width: 32%;
       }
@@ -99,8 +96,9 @@
   .intro-text {
     padding: 35px;
   }
-  .info-icon {
-    width: 80px;
+  .info-icon{
+    min-width: 45px;
+    max-width: 45px;
   }
 }
 @media only screen and (max-width: 1000px) {
@@ -254,5 +252,9 @@
   .pjt-img{
     min-width: 100%;
     height: auto;
+  }
+  .info-icon{
+    min-width: 30px;
+    max-width: 30px;
   }
 }

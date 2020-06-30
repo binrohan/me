@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- My CSS links -->
+  <link rel="stylesheet" href="resources/css/style.css">
+  <link rel="stylesheet" href="resources/css/queries.css">
+  <!-- Vendors CSS links -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="vendors/css/w3.css">
+  <link rel="stylesheet" href="vendors/css/animations.css">
+  <link rel="stylesheet" href="vendors/css/component.css">
+  <link rel="stylesheet" href="vendors/css/all.css">
+  <link rel="stylesheet" href="vendors/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="vendors/css/owl.theme.default.min.css">
+</head>
+<body>
+  <div class="page-layout">
+    <div class="nav-arrow mobile-asist-arrow">
+      <a class="prev" href="#blog"><span>&#60</span></a>
+      <a class="next" href="#code">&#62</a>
+    </div>
+    <!--Top navbar-->
+    <nav class="navbar">
+      <div class="nav-title">
+        <div class="nav-photo">
+          <img src="resources\img\User.jpg" alt="Rohan's photo">
+        </div>
+          <a href="#">R O H A N  B I N</a>
+        </div>
+      <button onclick="showSidebar()">
+        <div class="w3-container" onclick="shapeCross(this)">
+          <div class="w3-bar1"></div>
+          <div class="w3-bar2"></div>
+          <div class="w3-bar3"></div>
+        </div>
+      </button>
+    </nav>
+    <!--Side Nabar-->
+    <header id="js--sidebar">
+      <div>
+        <div class="row">
+          <div class="side-photo row">
+            <img src="resources\img\User.jpg" alt="user's photo">
+          </div>
+          <div class="side-name">
+            <h2>Rohan<br>Bin</h2>
+          </div>
+        </div>
+        <div class="side-menu row">
+          <a class="pt-trigger active-menu" href="#about-me">About Me</a>
+          <a class="pt-trigger" href="#resume">Resume</a>
+          <a class="pt-trigger" href="#project">Projects</a>
+          <a class="pt-trigger" href="#code">Coding</a>
+          <a class="pt-trigger" href="#blog">Blog</a>
+          <a class="pt-trigger" href="#contact">Contact</a>
+        </div>
+        <div class="social-icon icon-sm">
+          <a href="#"><i class="fab fa-github-square"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="nav-arrow">
+        <a class="prev" href="#blog"><span>&#60</span></a>
+        <a class="next" href="#code">&#62</a>
+      </div>
+    </header>
+    <div class="main no-js">
+      <div id="pt-main" class="pt-perspective">
+        <!--About ME-->
+        <section class="pt-page pt-page-about-me">
+          <div class="intro">
+            <div class="intro-photo">
+            </div>
+            <div class="intro-text">
+              <h6>Full Stack Developer</h6>
+              <h1>R O H A N B I N</h1>
+              <p>Hello, I am Rohan Bin Khokon studied Computer Science and Engineering chasing my passion for programming. In 4 years of study I tried different sections of development like Game Development, Mobile Development, Desktop Application Development, Server Site programming. Through All of this I realized that Server Site development best suited for me. Therefore I start learning deep in this sector with C# and also my problem solving skill become handy</p>
+              <p>I have developed a product-oriented mindset in my journey with Computer Science. Working experience on different aspects and lifecycle of software development process improved my agility and adaptability.</p>
+              <div><a href="#" class="bg-btn">Download CV</a></div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="row">
+              <h3 class="block-title">What I Do</h3>
+            </div>
+            <div class="row-2">
+              <div class="info-block">
+                <div class="info-icon">
+                  <i class="fas fa-server"></i>
+                </div>
+                <div class="detail">
+                  <h4>API Design</h4>
+                  <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales odio.</p>
+                </div>
+              </div>
+              <div class="info-block">
+                <div class="info-icon">
+                  <i class="fab fa-angular"></i>
+                </div>
+                <div class="detail">
+                  <h4>SPA Application</h4>
+                  <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales odio.</p>
+                </div>
+              </div>
+            <div class="row-2">
+              <div class="info-block">
+                <div class="info-icon">
+                  <i class="far fa-file-code"></i>
+                </div>
+                <div class="detail">
+                  <h4>SPA Application</h4>
+                  <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales odio.</p>
+                </div>
+              </div>
+              <div class="info-block">
+                <div class="info-icon">
+                  <i class="fas fa-database"></i>
+                </div>
+                <div class="detail">
+                  <h4>Database Design</h4>
+                  <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales odio.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="content">
+            <div class="row">
+              <h3 class="block-title">My Interests</h3>
+            </div>
+            <div class="row-interest row">
+              <div class="owl-carousel owl-theme">
+                <div class="interest-block">
+                  <div class="interest-icon">
+                    <i class="far fa-newspaper"></i>
+                  </div>
+                  <div class="interest-name">
+                    <h4>Artical Writing</h4>
+                  </div>
+                  <div class="interest-detail">
+                    <p>Sitting on chair and writing code for longtime, it's dreadthful.<br>In case of heathcare I choosing Cycling</p>
+                  </div>
+                </div>
+                <div class="interest-block">
+                  <div class="interest-icon">
+                    <i class="fas fa-biking"></i>
+                  </div>
+                  <div class="interest-name">
+                    <h4>Cycling</h4>
+                  </div>
+                  <div class="interest-detail">
+                    <p>Sitting on chair and writing code for longtime, it's dreadthful.<br>In case of heathcare I choosing Cycling</p>
+                  </div>
+                </div>
+                <div class="interest-block">
+                <div class="interest-icon">
+                  <i class="fas fa-landmark"></i>
+                </div>
+                <div class="interest-name">
+                  <h4>History</h4>
+                </div>
+                <div class="interest-detail">
+                  <p>I love all kinds of Animals</p>
+                </div>
+              </div>
+              <div class="interest-block">
+                <div class="interest-icon">
+                  <i class="fas fa-dog"></i>
+                </div>
+                <div class="interest-name">
+                  <h4>Animals</h4>
+                </div>
+                <div class="interest-detail">
+                  <p>I belive in Human and Nature relationship have be Strong into the Race of Existens</p>
+                </div>
+              </div>
+              <div class="interest-block">
+                <div class="interest-icon">
+                  <i class="fas fa-tree"></i>
+                </div>
+                <div class="interest-name">
+                  <h4>Environment</h4>
+                </div>
+                <div class="interest-detail">
+                  <p>World Histry it is dope for me</p>
+                </div>
+              </div>
+              <div class="interest-block">
+                <div class="interest-icon">
+                  <i class="far fa-lightbulb"></i>
+                </div>
+                <div class="interest-name">
+                  <h4>Over Thinking</h4>
+                </div>
+                <div class="interest-detail">
+                  <p>Stuck in a problem, I cann't relax untill reach a Solutions</p>
+                </div>
+              </div>
+              </div>
+            </div>
+        </section>
+        <!--Resume-->
+        <section class="pt-page pt-page-resume">
+          <div>
+            <div class="content">
+              <div class="super-title">
+                <h2>Resume</h2>
+                <p>You won't regret</p>
+              </div>
+              <div class="row">
+                <h3 class="block-title">My Skill Stack</h3>
+              </div>
+              <div class="skills">
+                <div class="skill-row row">
+                  <div class="skill-block">
+                    <h4>Programming Language</h4>
+                    <h5>C#</h5>
+                    <h5>JavaScript</h5>
+                    <h5>TypeScript</h5>
+                    <h5>Java</h5>
+                    <h5>C</h5>
+                    <h5>PHP</h5>
+                  </div>
+                  <div class="skill-block">
+                    <h4>Mark Up and Style</h4>
+                    <h5>HTML</h5>
+                    <h5>CSS</h5>
+                    <h5>XAML</h5>
+                  </div>
+                  <div class="skill-block">
+                    <h4>Database</h4>
+                    <h5>SQL Server</h5>
+                    <h5>MySQL</h5>
+                  </div>
+                  <div class="skill-block">
+                    <h4>FontEnd Framework</h4>
+                    <h5>Angular</h5>
+                    <h5>JQuery</h5>
+                    <h5>Boostrap</h5>
+                    <h5>Ngx-Boostrap</h5>
+                  </div>
+                </div>
+                <div class="skill-row row">
+                  <div class="skill-block">
+                    <h4>BackEnd Framework</h4>
+                    <h5>ASP.NET Core</h5>
+                    <h5>Entity Framework Core</h5>
+                  </div>
+                  <div class="skill-block">
+                    <h4>Achitecture</h4>
+                    <h5>MVC</h5>
+                    <h5>REST API</h5>
+                  </div>
+                  <div class="skill-block">
+                    <h4>Dev Environment</h4>
+                    <h5>Agile</h5>
+                  </div>
+                  <div class="skill-block">
+                    <h4>Versiont Control</h4>
+                    <h5>Git</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content">
+              <div class="row">
+                <h3 class="block-title">Relevant Courses</h3>
+              </div>
+              <div class="course-block">
+                <p>Stuctural Programming</p>
+                <p>Object Oriented Programming</p>
+                <p>Data Structure</p>
+                <p>Algorithm</p>
+                <p>Database Management System</p>
+                <p>System Analysis</p>
+                <p>Software Engineering</p>
+                <p>Web Database Programming</p>
+                <p>Advanced Enterprise Java</p>
+              </div>
+            </div>
+            <div class="content">
+              <div class="row">
+                <h3 class="block-title">Training</h3>
+              </div>
+              <div class="training-row row">
+                <div class="training-block">
+                  <div>
+                    <div class="training-img">
+                      <img src="resources/img/uxui.png" alt="ux/ui certificate">
+                    </div>
+                    <div class="training-title">
+                      <h4>UX/UI</h4>
+                    </div>
+                    <div class="distrib">
+                      <p>Mobile Games and Application User Experience and User Interface</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="training-block">
+                  <div>
+                    <div class="training-img">
+                      <img src="resources/img/uxui.png" alt="ux/ui certificate">
+                    </div>
+                    <div class="training-title">
+                      <h4>UX/UI</h4>
+                    </div>
+                    <div class="distrib">
+                      <p>Mobile Games and Application User Experience and User Interface</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="training-block">
+                  <div>
+                    <div class="training-img">
+                      <img src="resources/img/uxui.png" alt="ux/ui certificate">
+                    </div>
+                    <div class="training-title">
+                      <h4>UX/UI</h4>
+                    </div>
+                    <div class="distrib">
+                      <p>Mobile Games and Application User Experience and User Interface</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content">
+              <div class="row">
+                <h3 class="block-title">Education</h3>
+              </div>
+              <div class="edu-block row">
+                <table>
+                  <tr>
+                    <th><h4>Instution</h4></th>
+                    <th><h4>Subject</h4></th>
+                    <th><h4>Prog.</h4></th>
+                    <th><h4>Rerult</h4></th>
+                  </tr>
+                  <tr>
+                    <td>City University</td>
+                    <td>CSE</td>
+                    <td>BSc</td>
+                    <td>3.79</td>
+                  </tr>
+                  <tr>
+                    <td>Scristy College of Tangail</td>
+                    <td>Science</td>
+                    <td>HSC</td>
+                    <td>4.10</td>
+                  </tr>
+                  <tr>
+                    <td>Bindhubashini Govt. Boys' Hight School</td>
+                    <td>Science</td>
+                    <td>SSC</td>
+                    <td>4.81</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Project-->
+        <section class="pt-page pt-page-project">
+          <div class="content">
+            <div class="super-title">
+              <h2>Projects</h2>
+              <p>Works</p>
+            </div>
+            <div class="row">
+              <h3 class="block-title">Top 3 picks</h3>
+            </div>
+            <div class="row pro-row">
+              <div class="pjt-block">
+                  <div class="pjt-name">
+                    <h4>DatingApp</h4>
+                  </div>
+                <div class="pjt-detail">
+                  <div class="pjt-img">
+                    <img src="resources/img/projectpic.jpg" alt="">
+                  </div>
+                  <div class="pjt-text">
+                    <h5>Single Page Application</h5>
+                    <p>This app has many features such as user authentication, authenticaltion: user, Admin, moderation, upload photo, liking, chating, image veritication and many more.</p>
+                    <div class="pjt-tags">
+                      <span>Angular</span><span>ASP.NET Core</span><span>SQLite</span>
+                    </div>
+                    <div class="pjt-btn-group">
+                      <a href="https://github.com/binrohan/DatingApp" class="bg-btn">View Code</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pjt-block">
+                <div class="pjt-name">
+                  <h4>Rolling Ball</h4>
+                </div>
+                <div class="pjt-detail">
+                <div class="pjt-img">
+                  <img src="resources/img/projectpic.jpg" alt="">
+                </div>
+                <div class="pjt-text">
+                  <h5>2D Platformer Game</h5>
+                  <p>This game is developed in Unity Game Engine using C# programming language. Game is hosted in Newgrounds where it earns good rating by newgrounds community.</p>
+                  <div class="pjt-tags">
+                    <span>Unity</span><span>C#</span>
+                  </div>
+                  <div class="pjt-btn-group">
+                    <a href="https://www.newgrounds.com/portal/view/722877" target="_blank" class="bg-btn">Demo</a>
+                    <a href="https://github.com/binrohan/RollingBall-Game" target="_blank" class="bg-btn">View Code</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pjt-block">
+              <div class="pjt-name">
+                <h4>Resume-Design</h4>
+              </div>
+              <div class="pjt-detail">
+              <div class="pjt-img">
+                <img src="resources/img/projectpic.jpg" alt="">
+              </div>
+              <div class="pjt-text">
+                <h5>Responsive Website</h5>
+                <p>The website is developed using HTML5, CSS3. To make it responsive I used grid Element.</p>
+                <div class="pjt-tags">
+                  <span>HTML5</span><span>CSS</span>
+                </div>
+                <div class="pjt-btn-group">
+                  <a href="https://github.com/binrohan/Responsive-Resume" target="_blank" class="bg-btn">View Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+        </section>
+        <!--Coding Challange-->
+        <section class="pt-page pt-page-code">
+          <div class="content">
+            <div class="super-title">
+              <h2>Coding Challenges</h2>
+              <p>Practice makes an man perfect</p>
+            </div>
+            <div class="row">
+              <h3 class="block-title">Demo of Some Solutions</h3>
+            </div>
+            <div class="row code-row first-code-row">
+              <div class="code-block">
+                <a href="#">
+                  <div class="code-name">
+                    <h4>Coding Challenge name</h4>
+                  </div>
+                </a>
+                <div class="code-detail">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quod perspiciatis, deleniti pariatur a ducimus fuga amet debitis nihil possimus!</p>
+                </div>
+              </div>
+              <div class="code-block">
+                <a href="">
+                  <div class="code-name">
+                    <h4>Coding Challenge name</h4>
+                  </div>
+                </a>
+                <div class="code-detail">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quod perspiciatis, deleniti pariatur a ducimus fuga amet debitis nihil possimus!</p>
+                </div>
+              </div><div class="code-block">
+                <a href="">
+                  <div class="code-name">
+                    <h4>Coding Challenge name</h4>
+                  </div>
+                </a>
+                <div class="code-detail">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quod perspiciatis, deleniti pariatur a ducimus fuga amet debitis nihil possimus!</p>
+                </div>
+              </div>
+            
+              <div class="code-block">
+                <a href="">
+                  <div class="code-name">
+                    <h4>Coding Challenge name</h4>
+                  </div>
+                </a>
+                <div class="code-detail">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quod perspiciatis, deleniti pariatur a ducimus fuga amet debitis nihil possimus!</p>
+                </div>
+              </div>
+              <div class="code-block">
+                <a href="">
+                  <div class="code-name">
+                    <h4>Coding Challenge name</h4>
+                  </div>
+                </a>
+                <div class="code-detail">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quod perspiciatis, deleniti pariatur a ducimus fuga amet debitis nihil possimus!</p>
+                </div>
+              </div><div class="code-block">
+                <a href="">
+                  <div class="code-name">
+                    <h4>Coding Challenge name</h4>
+                  </div>
+                </a>
+                <div class="code-detail">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quod perspiciatis, deleniti pariatur a ducimus fuga amet debitis nihil possimus!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="row">
+              <h3 class="block-title">Problem Solved</h3>
+            </div>
+            <div class="code-solved">
+              <h4>Till now </h4><span class="counter total count" >369</span><h4> problem have been solved</h4>
+            </div>
+            <div class="code-list">
+              <div class="row list-row">
+                <div class="list-card">
+                  <h5 class="count">234</h5>
+                  <p>URI</p>
+                </div>
+                <div class="list-card">
+                  <h5 class="count">50</h5>
+                  <p>UVA</p>
+                </div>
+                <div class="list-card">
+                  <h5 class="count">0</h5>
+                  <p>Project Euler</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="row">
+              <h3 class="block-title">Target</h3>
+            </div>
+            <div class="row target-row">
+              <h6>1000</h6>
+              <div class="Progress">
+                <div class="Bar">37%</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Blog-->
+        <section class="pt-page pt-page-blog">
+          <div class="content">
+            <div class="super-title">
+              <h2>Blog</h2>
+              <p>Sometime I write</p>
+            </div>
+            <div class="row">
+              <h3 class="block-title">Techincal Artical</h3>
+            </div>
+            <div class="row blog-row">
+              <div class="blog-block">
+                <div class="blog-name">
+                  <h4>Coding Challenge name</h4>
+                </div>
+                <div class="blog-detail">
+                  <div class="blog-img">
+                    <img src="resources/img/blog.png" alt="">
+                  </div>
+                  <div class="blog-text">
+                    <h5>Project Headline1</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit totam pariatur, cum optio autem earum vel atque quam sit alias, quaerat quos maiores hic?</p>
+                    <div class="blog-tags">
+                      <span>Angular</span><span>ASP.NET Core</span><span>SQLite</span>
+                    </div>
+                    <div class="blog-btn-group">
+                      <a href="#" class="bg-btn">Ream more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-block">
+                <div class="blog-name">
+                  <h4>Coding Challenge name2</h4>
+                </div>
+                <div class="blog-detail">
+                  <div class="blog-img">
+                    <img src="resources/img/blog.png" alt="">
+                  </div>
+                  <div class="blog-text">
+                    <h5>Project Headline</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit totam pariatur, cum optio autem earum vel atque quam sit alias, quaerat quos maiores hic?</p>
+                    <div class="blog-tags">
+                      <span>Angular</span><span>ASP.NET Core</span><span>SQLite</span>
+                    </div>
+                    <div class="blog-btn-group">
+                      <a href="#" class="bg-btn">Ream more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-block">
+                <div class="blog-name">
+                  <h4>Coding Challenge name3</h4>
+                </div>
+                <div class="blog-detail">
+                  <div class="blog-img">
+                    <img src="resources/img/blog.png" alt="">
+                  </div>
+                  <div class="blog-text">
+                    <h5>Project Headline4</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit totam pariatur, cum optio autem earum vel atque quam sit alias, quaerat quos maiores hic?</p>
+                    <div class="blog-tags">
+                      <span>Angular</span><span>ASP.NET Core</span><span>SQLite</span>
+                    </div>
+                    <div class="blog-btn-group">
+                      <a href="#" class="bg-btn">Ream more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-block">
+                <div class="blog-name">
+                  <h4>Coding Challenge name4</h4>
+                </div>
+                <div class="blog-detail">
+                  <div class="blog-img">
+                    <img src="resources/img/blog.png" alt="">
+                  </div>
+                  <div class="blog-text">
+                    <h5>Project Headline</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit totam pariatur, cum optio autem earum vel atque quam sit alias, quaerat quos maiores hic?</p>
+                    <div class="blog-tags">
+                      <span>Angular</span><span>ASP.NET Core</span><span>SQLite</span>
+                    </div>
+                    <div class="blog-btn-group">
+                      <a href="#" class="bg-btn">Ream more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-block">
+                <div class="blog-name">
+                  <h4>Coding Challenge name5</h4>
+                </div>
+                <div class="blog-detail">
+                  <div class="blog-img">
+                    <img src="resources/img/blog.png" alt="">
+                  </div>
+                  <div class="blog-text">
+                    <h5>Project Headline</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit totam pariatur, cum optio autem earum vel atque quam sit alias, quaerat quos maiores hic?</p>
+                    <div class="blog-tags">
+                      <span>Angular</span><span>ASP.NET Core</span><span>SQLite</span>
+                    </div>
+                    <div class="blog-btn-group">
+                      <a href="#" class="bg-btn">Ream more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--contact-->
+        <section class="pt-page pt-page-contact">
+          <div class="content">
+            <div class="super-title">
+              <h2>Contact</h2>
+              <p>I am willing to hear from you</p>
+            </div>
+            <div class="row">
+              <h3 class="block-title">Personal</h3>
+            </div>
+            <div class="row personal-row">
+              <div class="con-outer">
+                <div class="con-card">
+                  <div class="con-icon"><i class="fas fa-phone-alt"></i></i></div>
+                  <h4>01553501368</h4>
+                </div>
+              </div>
+                <div class="con-outer">
+                  <div class="con-card">
+                    <div class="con-icon"><i class="far fa-envelope"></i></i></div>
+                    <h4>binrohan.cs@gmail.com</h4>
+                  </div>
+                </div>
+                <div class="con-outer">
+                  <div class="con-card">
+                    <div class="con-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <h4>Dhaka, Bangladesh</h4>
+                  </div>
+                </div>
+               <div class="con-outer">
+                  <div class="con-card">
+                    <div class="con-icon"><i class="fas fa-phone-alt"></i></i></div>
+                    <h4>01553501368</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="row">
+              <h3 class="block-title">Mail Me:</h3>
+            </div>
+            <form action="">
+              <div class="row msg-row">
+                <div class="msg-left">
+                
+                  <input type="text" name="name" id="" class="required" placeholder="Full Name" required>
+                  <input type="email" name="email" id="" class="required" placeholder="Email Address" required>
+                  <input type="text" name="subject" id="" placeholder="Subject">
+                </div>
+                <div class="msg-right">
+                  <textarea name="message" id="" cols="30"  placeholder="Message"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <button type="submit" class="bg-btn">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <!--Scripts links-->
+  <!-- Scripts Links Vendors-->
+  <script src="vendors/js/jquery.js"></script>
+  <script src="vendors/js/transition.js"></script>
+  <script src="vendors/js/owl.carousel.min.js"></script>
+  <script src="vendors/js/jquery.waypoints.min.js"></script>
+  <!-- Scripts Links Owns-->
+  <script src="resources/js/script.js"></script>
+</body>
+</html>

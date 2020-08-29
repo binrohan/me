@@ -116,19 +116,19 @@ $(document).ready(function()
     $("#imgDino-rollingball").hover(
         function()
         {
-            $(this).attr("src", "resources/img/rollingball.gif");
+            $('#imgDino-rollingball img').attr("src", "resources/img/rollingball.gif");
         }                        
     );
     $("#imgDino-resume").hover(
       function()
       {
-          $(this).attr("src", "resources/img/responsive-resume.gif");
+          $('#imgDino-resume img').attr("src", "resources/img/responsive-resume.gif");
       }                        
     ); 
     $("#imgDino-datingapp").hover(
       function()
       {
-          $(this).attr("src", "resources/img/datingapp.gif");
+          $('#imgDino-datingapp img').attr("src", "resources/img/datingapp.gif");
       }                        
     );                  
 });

@@ -162,6 +162,9 @@
   .pjt-text{
     padding: 10px;
   }
+  .g-container{
+    column-count: 1;
+  }
   .blog-block{
     width: 49%;
     margin-top: 20px;

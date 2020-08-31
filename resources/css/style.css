@@ -42,8 +42,8 @@ h6 {
 }
 p {
   font-size: 75%;
-  margin-bottom: 5px;
-  letter-spacing: 0.05rem;
+  margin-bottom: 5px;word-spacing: 0.1rem;
+  /* letter-spacing: 0.05rem; */
   color: var(--text-color);
   line-height: 25px;
 }
@@ -470,11 +470,11 @@ tr:nth-child(even) {
 /* Project Starts */
 .g-container{
   column-count: 2;
-  column-gap: 20px;
+  column-gap: 70px;
   row-gap: 20px;
 }
 .p-card{
-  margin: 0 0 30px;
+  margin: 0 0 50px;
   display: inline-block;
   background: whitesmoke;
   border-radius: 2px;

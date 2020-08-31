@@ -130,5 +130,11 @@ $(document).ready(function()
       {
           $('#imgDino-datingapp img').attr("src", "resources/img/datingapp.gif");
       }                        
+    );
+    $("#imgDino-bug_tracker").hover(
+      function()
+      {
+          $('#imgDino-bug_tracker img').attr("src", "resources/img/bug_tracker.gif");
+      }                        
     );                  
 });

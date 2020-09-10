@@ -833,7 +833,9 @@ header {
   z-index: 1;
   display: none;
 }
-
+.content{
+  min-height: 100vh;
+}
 
 /** Tag CSS **/
 /** Id CSS **/

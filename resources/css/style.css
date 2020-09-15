@@ -785,7 +785,7 @@ input, textarea{
 input:last-child{
   margin: 0;
 }
-.pt-page-contact{
+.pt-page-contact, .pt-page-blog, .pt-page-code{
   height: 100vh;
   background-color: var(--background-light);
 }
@@ -833,7 +833,7 @@ header {
   z-index: 1;
   display: none;
 }
-.mh{
+.fake{
   min-height: 100vh !important;
 }
 /** Tag CSS **/

@@ -468,7 +468,12 @@ tr:nth-child(even) {
 }
 /* Resume Ends */
 /* Project Starts */
+
+/*Bug Found HERE
+column count not taking value above 2
+*/
 .g-container{
+  max-width: 1400px;
   column-count: 2;
   column-gap: 70px;
   row-gap: 20px;

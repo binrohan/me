@@ -416,7 +416,7 @@ section::-webkit-scrollbar-thumb {
 /* Training */
 .training-row {
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   align-items: stretch;
   flex-wrap: wrap;
 }

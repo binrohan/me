@@ -267,6 +267,7 @@ section::-webkit-scrollbar-thumb {
 }
 .intro-photo {
   width: 50%;
+  height: 570px;
   background-image: url('../img/User.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -275,6 +276,9 @@ section::-webkit-scrollbar-thumb {
 .intro-text {
   width: 50%;
   padding: 70px 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .intro-text > h6 {
   font-size: 80%;
@@ -841,6 +845,9 @@ header {
 .fake{
   min-height: 100vh !important;
 }
+.hide{
+  display: none !important;
+}
 /** Tag CSS **/
 /** Id CSS **/
 /** Class CSS **/
@@ -860,3 +867,4 @@ header {
   background-repeat: no-repeat;
   background-position: center;
 } */
+
